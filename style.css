@@ -29,6 +29,7 @@ p {
 
 .menu {
     list-style: none;
+    position: fixed;
     font-family: fantasy, Curlz MT;
     float: right;
     top: 10px;
@@ -44,4 +45,18 @@ li {
 
 .links:hover {
     background-color: aqua;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid red;
+    border-radius: 0px;
+}
+
+img:hover {
+    transform: scale(0.9);
 }
