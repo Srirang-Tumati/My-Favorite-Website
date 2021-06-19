@@ -48,7 +48,7 @@ li {
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 img {
@@ -59,4 +59,8 @@ img {
 
 img:hover {
     transform: scale(0.9);
+}
+
+.contact_1 h3{
+    display: inline;
 }
