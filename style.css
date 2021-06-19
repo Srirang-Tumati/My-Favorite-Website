@@ -29,10 +29,10 @@ p {
 
 .menu {
     list-style: none;
-    position: fixed;
+    position: absolute;
     font-family: fantasy, Curlz MT;
     float: right;
-    top: 10px;
+    top: 0px;
     right: 30px;
     z-index: 10;
     cursor: pointer;
@@ -41,10 +41,14 @@ p {
 
 li {
     display: inline;
+    margin: 5px;
+    padding: 5px;
 }
 
 .links:hover {
     background-color: aqua;
+    height: 20x;
+    font-size: 22px;
 }
 
 html {
@@ -63,4 +67,14 @@ img:hover {
 
 .contact_1 h3{
     display: inline;
+}
+
+#MyFavoriteHobby{
+    position: relative;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
 }
